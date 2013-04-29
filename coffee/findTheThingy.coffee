@@ -15,8 +15,7 @@ Crafty.e("2D, Canvas, Color, Mouse")
         h: 40
     )
     .bind "Click", ->
-        player = Crafty("Player")
-        player.setColor "yellow"
+        console.log "yellow clicked"
     .color("yellow")
 
 Crafty.e("2D, Canvas, right, Mouse")
@@ -35,5 +34,4 @@ Crafty.e("2D, Canvas, right, Mouse")
         @x += @velocityX
         @y += @velocityY
     .bind "Click", ->
-        player = Crafty("Player")
-        player.setColor "yellow"
+        console.log "clicked!!!"
