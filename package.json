@@ -10,7 +10,7 @@
     "url": "git://github.com/ItalianCollective/tabletApp.git"
   },
   "dependencies": {
-    "webserver": "1.1.x",
+    "nws": "0.2.x",
     "file": "0.2.x",
     "coffee-script": "1.6.x"
   },

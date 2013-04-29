@@ -1,1 +1,1 @@
-web: node node_modules/webserver/webserver.js .
+web: node_modules/nws/bin/nws -p $PORT
